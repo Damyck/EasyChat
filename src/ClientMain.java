@@ -6,6 +6,7 @@ import java.io.IOException;
 public class ClientMain {
     public static void main(String[] args)throws IOException{
         ChatClient cl = new ChatClient("localhost", 4444);
+
         cl.start();
     }
 }
